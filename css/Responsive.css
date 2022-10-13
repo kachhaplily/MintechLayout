@@ -1,0 +1,247 @@
+@media screen and (max-width:900px) {
+
+    .top-heade,
+    .navbar,
+    .center-div,
+    .top-header-left,
+    .left-business,
+    .right-business,
+    .left-B-box,
+    .testimonial-slider,
+    .sliderdiv,
+    .left,
+    .testimonial-div,
+    .footer-tleft,
+    .footerbox,
+    .bootom-box,
+    .re-lib-box,
+    .cards-slider,
+    .awrd-box,
+    .center-width,
+    .box,
+    .right {
+        max-width: 100%;
+    }
+
+    /* header  */
+    .top-header-left ul li,
+    .top-header-right ul li,
+    .nav-item ul li,
+    .full-lw,
+    .left-right-section {
+        padding: 0;
+    }
+
+    .success ,.resource-lib {
+        padding: 20px 0;
+    }
+
+    /* font size decrement  */
+    .my-sign {
+        font-size: 40px;
+    }
+
+    .mobile-view-stories {
+        display: block;
+    }
+
+
+    .left-text h1 {
+        font-size: 25px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-text {
+        max-width: 70%;
+        text-align: center;
+    }
+
+    .container-text h1 {
+        font-size: 24px;
+    }
+
+    .container-text p,
+    .left-text p {
+        text-align: justify;
+    }
+
+    /* ///// */
+    .left,
+    .left-text {
+        max-width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .img-content {
+        max-width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.226);
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        padding: 50px;
+        color: white;
+    }
+
+    .img-detailes {
+        background: rgba(216, 214, 214, 0.368);
+        padding: 80px;
+    }
+
+    .s-img {
+        max-width: 20%;
+    }
+
+    .img-content::after,
+    .bootom-boxs,
+    .success-stories,
+    .avtarimg,
+    .resource-libdiv,
+    .testimonial {
+        display: none;
+    }
+
+    .brand-logo {
+        max-width: 20%;
+    }
+
+    /* price-planing  */
+    .price-planediv,
+    .right-business,
+    .testimonial-div {
+        flex-wrap: wrap;
+    }
+
+    .right-pp-img{
+        position: static;
+        max-width: 100%;
+    }
+    .left-B-box {
+         position:relative;
+         left: 0;
+         transform: translateY(0%);
+         max-width: 100%;
+
+    }
+
+
+    .left-business img,
+    .avtarimg img,
+    .testimonial-leftimg,
+    .testimonial-rightimg,
+    .awrd-boxes,
+    .help-rightimg {
+        display: none;
+    }
+
+
+    .awardrecoz-title {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .awardrecoz-title h1 {
+        padding: 20px;
+    }
+
+    .award-slogan {
+        padding: 0 80px;
+        text-align: center;
+    }
+    .explore-link{
+        width: 100%;
+    }
+
+
+    .award-img-mob img {
+        display: block;
+        max-width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .awards {
+        text-align: center;
+        background-color: rgb(233, 233, 233);
+    }
+
+    .help-business-div,
+    .top-footer-div,
+    .lr-center-div  {
+        flex-wrap: wrap;
+        padding: 10px 20px;
+    }
+
+
+    /* common  */
+  
+    .left-right-section {
+        height: auto;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+    
+    .bootom-box p {
+        padding: 5px 80px;
+    }
+
+    .social-footer {
+        text-align: center;
+    }
+
+}
+
+
+/* for mobile  */
+@media screen and (max-width:450px) {
+    .container-text h1{
+        font-size: 35px;
+        max-width: 100%;
+
+    }
+    
+
+    .left-B-box h1,
+    .awardrecoz-title h1{
+        font-size: 25px;
+    }
+    .img-content {
+        max-width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.226);
+        top: 30%;
+        bottom: 30%;
+        right: 0;
+        padding: 10px;
+        color: white;
+    }
+    .img-detailes{
+        padding: 0 50px;
+    }
+    .award-slogan {
+        padding: 0 30px;
+    }
+    .section-title{
+        padding: 15px;
+    }
+    .event-content{
+        padding: 0;
+    }
+    .footer-tleft{
+        gap: 8px;
+    }
+    .bootom-box{
+        max-width:100%;  
+        height:auto;
+    }
+
+}
+
